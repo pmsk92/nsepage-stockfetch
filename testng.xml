@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NseStockFetch">
+    <test name="LaunchChrome">
+        <parameter name="BrowserName" value="Chrome"></parameter>
+        <classes>
+            <class name="start.LaunchChrome"/>
+        </classes>
+    </test>
+</suite>
